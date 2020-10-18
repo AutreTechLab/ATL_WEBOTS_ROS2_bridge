@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.cpp.o"
+  "CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.cpp.o"
+  "CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support.cpp.o"
+  "CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.cpp.o"
+  "libwebots_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libwebots_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_motor_srv__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

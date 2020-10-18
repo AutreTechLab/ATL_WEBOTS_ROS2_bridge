@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_interfaces/srv/WebotsThymio2MotorSrv.srv
+// generated code does not contain a copyright notice
+
+
+module webots_interfaces {
+  module srv {
+    struct WebotsThymio2MotorSrv_Request {
+      @verbatim (language="comment", text=
+        " Thymio motor.left.target")
+      int64 motor_left_target;
+
+      @verbatim (language="comment", text=
+        " Thymio motor.right.target")
+      int64 motor_right_target;
+    };
+    struct WebotsThymio2MotorSrv_Response {
+      string log_message;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+msg/WebotsThymio2Controller.idl
+msg/WebotsThymio2Controller.msg
+srv/WebotsThymio2ControllerSrv.idl
+srv/WebotsThymio2ControllerSrv.srv
+srv/WebotsThymio2ControllerSrv_Request.msg
+srv/WebotsThymio2ControllerSrv_Response.msg
+srv/WebotsThymio2LEDSrv.idl
+srv/WebotsThymio2LEDSrv.srv
+srv/WebotsThymio2LEDSrv_Request.msg
+srv/WebotsThymio2LEDSrv_Response.msg
+srv/WebotsThymio2MotorSrv.idl
+srv/WebotsThymio2MotorSrv.srv
+srv/WebotsThymio2MotorSrv_Request.msg
+srv/WebotsThymio2MotorSrv_Response.msg

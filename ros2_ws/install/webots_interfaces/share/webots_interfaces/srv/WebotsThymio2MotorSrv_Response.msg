@@ -1,0 +1,2 @@
+
+string log_message

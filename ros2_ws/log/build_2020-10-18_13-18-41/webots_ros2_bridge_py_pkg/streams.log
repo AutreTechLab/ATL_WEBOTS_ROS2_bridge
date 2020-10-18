@@ -1,0 +1,21 @@
+[0.418s] Invoking command in '/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_ros2_bridge_py_pkg': LD_LIBRARY_PATH=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg/lib/python3.8/site-packages:/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_bridge_py_pkg build --build-base /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_ros2_bridge_py_pkg/build install --prefix /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg --record /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_ros2_bridge_py_pkg/install.log --single-version-externally-managed
+[0.777s] running egg_info
+[0.778s] writing ../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/PKG-INFO
+[0.778s] writing dependency_links to ../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/dependency_links.txt
+[0.778s] writing entry points to ../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/entry_points.txt
+[0.778s] writing requirements to ../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/requires.txt
+[0.778s] writing top-level names to ../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/top_level.txt
+[0.833s] reading manifest file '../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/SOURCES.txt'
+[0.834s] writing manifest file '../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info/SOURCES.txt'
+[0.835s] running build
+[0.835s] running build_py
+[0.835s] running install
+[0.836s] running install_lib
+[0.838s] running install_data
+[0.838s] running install_egg_info
+[0.840s] removing '/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg/lib/python3.8/site-packages/webots_ros2_bridge_py_pkg-0.0.1-py3.8.egg-info' (and everything under it)
+[0.841s] Copying ../../build/webots_ros2_bridge_py_pkg/webots_ros2_bridge_py_pkg.egg-info to /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg/lib/python3.8/site-packages/webots_ros2_bridge_py_pkg-0.0.1-py3.8.egg-info
+[0.843s] running install_scripts
+[0.877s] Installing webots_thymio2_controller_node script to /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg/lib/webots_ros2_bridge_py_pkg
+[0.878s] writing list of installed files to '/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_ros2_bridge_py_pkg/install.log'
+[0.922s] Invoked command in '/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_ros2_bridge_py_pkg' returned '0': LD_LIBRARY_PATH=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg/lib/python3.8/site-packages:/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webots_ros2_bridge_py_pkg build --build-base /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_ros2_bridge_py_pkg/build install --prefix /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/install/webots_ros2_bridge_py_pkg --record /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_ros2_bridge_py_pkg/install.log --single-version-externally-managed

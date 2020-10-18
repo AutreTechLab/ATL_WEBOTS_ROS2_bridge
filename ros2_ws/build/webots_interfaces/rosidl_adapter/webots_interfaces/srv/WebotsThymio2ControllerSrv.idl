@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_interfaces/srv/WebotsThymio2ControllerSrv.srv
+// generated code does not contain a copyright notice
+
+
+module webots_interfaces {
+  module srv {
+    struct WebotsThymio2ControllerSrv_Request {
+      string command;
+
+      string usb_port;
+    };
+    struct WebotsThymio2ControllerSrv_Response {
+      boolean success;
+
+      string log_message;
+    };
+  };
+};

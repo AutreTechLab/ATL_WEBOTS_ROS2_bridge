@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(webots_interfaces_IDL_FILES "msg/WebotsThymio2Controller.idl;srv/WebotsThymio2ControllerSrv.idl;srv/WebotsThymio2MotorSrv.idl;srv/WebotsThymio2LEDSrv.idl")
+set(webots_interfaces_INTERFACE_FILES "msg/WebotsThymio2Controller.msg;srv/WebotsThymio2ControllerSrv.srv;srv/WebotsThymio2ControllerSrv_Request.msg;srv/WebotsThymio2ControllerSrv_Response.msg;srv/WebotsThymio2MotorSrv.srv;srv/WebotsThymio2MotorSrv_Request.msg;srv/WebotsThymio2MotorSrv_Response.msg;srv/WebotsThymio2LEDSrv.srv;srv/WebotsThymio2LEDSrv_Request.msg;srv/WebotsThymio2LEDSrv_Response.msg")

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from webots_interfaces/srv/WebotsThymio2LEDSrv.srv
+// generated code does not contain a copyright notice
+
+
+module webots_interfaces {
+  module srv {
+    struct WebotsThymio2LEDSrv_Request {
+      @verbatim (language="comment", text=
+        " leds.top(32, 0, 0)")
+      sequence<int64> leds_top;
+
+      @verbatim (language="comment", text=
+        " leds.bottom.left(0, 0, 0)")
+      sequence<int64> leds_bottom_left;
+
+      @verbatim (language="comment", text=
+        " leds.bottom.right(0, 0, 0)")
+      sequence<int64> leds_bottom_right;
+    };
+    struct WebotsThymio2LEDSrv_Response {
+      string log_message;
+    };
+  };
+};

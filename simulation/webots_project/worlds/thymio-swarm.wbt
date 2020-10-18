@@ -1,0 +1,56 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  info [
+    ""
+    ""
+    ""
+    ""
+  ]
+  title "ATL IDE Thymio"
+  basicTimeStep 10
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.2601194967160719 -0.9225151027089826 -0.28513809409128915 4.540753920896468
+  position 3.030988689468617 1.6972669195980925 0.3496358168176702
+}
+Thymio2 {
+  translation -1.1 0 0.4
+  rotation 0 1 0 1.5707996938995747
+  name "Thymio II(1)"
+  controller "<extern>"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  name "FLL Table"
+  floorSize 2.362 1.142
+  floorTileSize 0.2 0.2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Thymio2 {
+  translation -1.1 0 0.239707
+  rotation 0 1 0 1.5707996938995747
+  controller "atl_thymio"
+  supervisor TRUE
+  window "thymio2"
+}
+DEF TEST MazeBlock {
+  translation -2.436136812071342e-08 0.0074773996710506075 0.3192835686382904
+  rotation -0.9999999999999827 -1.323716181215311e-07 1.3043575197722097e-07 0
+  length 0.5
+}
+Group {
+  children [
+    MazeBlock {
+      translation 0.5964391734196061 -1.1955937500009173e-05 9.993927219751931e-09
+      rotation -3.045625185276623e-17 1 2.912281287551793e-17 1.5
+      name "maze block(1)"
+      length 0.5
+    }
+  ]
+}
