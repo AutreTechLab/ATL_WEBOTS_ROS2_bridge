@@ -4,7 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.o"
   "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.c.o"
+  "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.o"
+  "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.o"
+  "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.o"
+  "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.o"
   "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.c.o"
   "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_led_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_led_srv_s.c.o"
   "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.c" "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.c.o"
@@ -13,6 +18,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "RCUTILS_ENABLE_FAULT_INJECTION"
   "ROS_PACKAGE_NAME=\"webots_interfaces\""
   "webots_interfaces__python_EXPORTS"
   )

@@ -27,6 +27,7 @@ RectangleArena {
   }
 }
 Thymio2 {
+  translation -2.5992e-09 -0.00456239 -0.479985
   rotation -0.9999999999629002 5.28844593584126e-07 -8.597655512360686e-06 0.009505090353741974
   name "Thymio2_V1"
   controller "<extern>"

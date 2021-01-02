@@ -1,0 +1,6 @@
+string atlide_robot_name
+string atlide_world        # Defines the simulation environment
+string port
+---
+bool success
+string log_message

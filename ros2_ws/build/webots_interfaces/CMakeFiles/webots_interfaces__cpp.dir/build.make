@@ -57,6 +57,10 @@ CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/we
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__builder.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__struct.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__traits.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/webots_cozmo_controller.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__builder.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__struct.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__traits.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_thymio2_controller_srv.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__builder.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__struct.hpp
@@ -69,6 +73,22 @@ CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/we
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__builder.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__struct.hpp
 CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__traits.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_simulation_srv.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__builder.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__struct.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__traits.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__builder.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__traits.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_motor_srv.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__builder.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__traits.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_led_srv.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__builder.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.hpp
+CMakeFiles/webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__traits.hpp
 
 
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -87,9 +107,14 @@ rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: /opt/r
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/msg/WebotsThymio2Controller.idl
+rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/msg/WebotsCozmoController.idl
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsThymio2ControllerSrv.idl
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsThymio2MotorSrv.idl
 rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsThymio2LEDSrv.idl
+rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsSimulationSrv.idl
+rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsCozmoSpeakerSrv.idl
+rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsCozmoMotorSrv.idl
+rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp: rosidl_adapter/webots_interfaces/srv/WebotsCozmoLEDSrv.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -101,6 +126,18 @@ rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__str
 
 rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__traits.hpp
+
+rosidl_generator_cpp/webots_interfaces/msg/webots_cozmo_controller.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/msg/webots_cozmo_controller.hpp
+
+rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__builder.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__builder.hpp
+
+rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__struct.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__struct.hpp
+
+rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__traits.hpp
 
 rosidl_generator_cpp/webots_interfaces/srv/webots_thymio2_controller_srv.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/webots_thymio2_controller_srv.hpp
@@ -138,11 +175,63 @@ rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__struct
 rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__traits.hpp
 
+rosidl_generator_cpp/webots_interfaces/srv/webots_simulation_srv.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/webots_simulation_srv.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__builder.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__builder.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__struct.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__struct.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__traits.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__builder.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__builder.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__traits.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_motor_srv.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_motor_srv.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__builder.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__builder.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__traits.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_led_srv.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_led_srv.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__builder.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__builder.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.hpp
+
+rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__traits.hpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__traits.hpp
+
 webots_interfaces__cpp: CMakeFiles/webots_interfaces__cpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/webots_thymio2_controller.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__builder.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__struct.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__traits.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/webots_cozmo_controller.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__builder.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__struct.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__traits.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_thymio2_controller_srv.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__builder.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__struct.hpp
@@ -155,6 +244,22 @@ webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_thymio
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__builder.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__struct.hpp
 webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_thymio2_led_srv__traits.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_simulation_srv.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__builder.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__struct.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_simulation_srv__traits.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__builder.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__traits.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_motor_srv.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__builder.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__traits.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/webots_cozmo_led_srv.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__builder.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.hpp
+webots_interfaces__cpp: rosidl_generator_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__traits.hpp
 webots_interfaces__cpp: CMakeFiles/webots_interfaces__cpp.dir/build.make
 
 .PHONY : webots_interfaces__cpp

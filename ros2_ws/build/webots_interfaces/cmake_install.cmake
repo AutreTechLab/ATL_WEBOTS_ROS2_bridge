@@ -359,6 +359,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/msg" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces/msg/WebotsCozmoController.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces/srv/WebotsThymio2ControllerSrv.idl")
 endif()
 
@@ -371,7 +375,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces/srv/WebotsSimulationSrv.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces/srv/WebotsCozmoSpeakerSrv.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces/srv/WebotsCozmoMotorSrv.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces/srv/WebotsCozmoLEDSrv.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/msg" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/msg/WebotsThymio2Controller.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/msg" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/msg/WebotsCozmoController.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -408,6 +432,54 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsThymio2LEDSrv_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsSimulationSrv.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsSimulationSrv_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsSimulationSrv_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsCozmoSpeakerSrv.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsCozmoSpeakerSrv_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsCozmoSpeakerSrv_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsCozmoMotorSrv.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsCozmoMotorSrv_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsCozmoMotorSrv_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsCozmoLEDSrv.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsCozmoLEDSrv_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_interfaces/srv" TYPE FILE FILES "/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_cmake/srv/WebotsCozmoLEDSrv_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

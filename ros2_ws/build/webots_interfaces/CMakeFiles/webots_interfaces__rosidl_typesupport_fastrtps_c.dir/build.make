@@ -66,14 +66,25 @@ rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_contro
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/msg/WebotsThymio2Controller.idl
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/msg/WebotsCozmoController.idl
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsThymio2ControllerSrv.idl
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsThymio2MotorSrv.idl
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsThymio2LEDSrv.idl
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsSimulationSrv.idl
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsCozmoSpeakerSrv.idl
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsCozmoMotorSrv.idl
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/webots_interfaces/srv/WebotsCozmoLEDSrv.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp
 
 rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__rosidl_typesupport_fastrtps_c.h
@@ -93,6 +104,30 @@ rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_sr
 rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp
 
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp
+
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.o"
@@ -106,9 +141,22 @@ CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.s
 
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp > CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s
+
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp
 
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.i: cmake_force
@@ -121,7 +169,7 @@ CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
 
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp
 
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.i: cmake_force
@@ -134,7 +182,7 @@ CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
 
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp
 
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.i: cmake_force
@@ -145,20 +193,82 @@ CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.s
 
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp > CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp > CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp > CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp > CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i
+
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp -o CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s
+
 # Object files for target webots_interfaces__rosidl_typesupport_fastrtps_c
 webots_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.o" \
+"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o" \
 "CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o" \
 "CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o" \
-"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o"
+"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o" \
+"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o" \
+"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o" \
+"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o" \
+"CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o"
 
 # External object files for target webots_interfaces__rosidl_typesupport_fastrtps_c
 webots_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.o
+libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.o
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp.o
+libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o
+libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o
+libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o
+libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_c.so
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: libwebots_interfaces__rosidl_generator_c.so
@@ -175,7 +285,7 @@ libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gn
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfastcdr.so.1.0.13
 libwebots_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libwebots_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libwebots_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,12 +299,22 @@ CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support_c.cpp
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp
 	cd /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/depend
 

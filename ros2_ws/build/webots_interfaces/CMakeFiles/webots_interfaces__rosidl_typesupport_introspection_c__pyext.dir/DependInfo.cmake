@@ -10,6 +10,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "RCUTILS_ENABLE_FAULT_INJECTION"
   "ROS_PACKAGE_NAME=\"webots_interfaces\""
   "webots_interfaces__rosidl_typesupport_introspection_c__pyext_EXPORTS"
   )

@@ -1,4 +1,9 @@
 /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:msg/WebotsThymio2Controller.idl
+/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:msg/WebotsCozmoController.idl
 /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsThymio2ControllerSrv.idl
 /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsThymio2MotorSrv.idl
 /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsThymio2LEDSrv.idl
+/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsSimulationSrv.idl
+/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsCozmoSpeakerSrv.idl
+/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsCozmoMotorSrv.idl
+/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_adapter/webots_interfaces:srv/WebotsCozmoLEDSrv.idl

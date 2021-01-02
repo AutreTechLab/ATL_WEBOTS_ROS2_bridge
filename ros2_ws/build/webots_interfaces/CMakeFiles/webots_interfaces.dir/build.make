@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ro
 include CMakeFiles/webots_interfaces.dir/progress.make
 
 CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/msg/WebotsThymio2Controller.msg
+CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/msg/WebotsCozmoController.msg
 CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsThymio2ControllerSrv.srv
 CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsThymio2ControllerSrv_Request.msg
 CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsThymio2ControllerSrv_Response.msg
@@ -63,6 +64,18 @@ CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsThymio2MotorSrv_Response.ms
 CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsThymio2LEDSrv.srv
 CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsThymio2LEDSrv_Request.msg
 CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsThymio2LEDSrv_Response.msg
+CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsSimulationSrv.srv
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsSimulationSrv_Request.msg
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsSimulationSrv_Response.msg
+CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsCozmoSpeakerSrv.srv
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsCozmoSpeakerSrv_Request.msg
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsCozmoSpeakerSrv_Response.msg
+CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsCozmoMotorSrv.srv
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsCozmoMotorSrv_Request.msg
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsCozmoMotorSrv_Response.msg
+CMakeFiles/webots_interfaces: /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces/srv/WebotsCozmoLEDSrv.srv
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsCozmoLEDSrv_Request.msg
+CMakeFiles/webots_interfaces: rosidl_cmake/srv/WebotsCozmoLEDSrv_Response.msg
 
 
 webots_interfaces: CMakeFiles/webots_interfaces

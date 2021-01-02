@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "webots_thymio2_controller_node = webots_ros2_bridge_py_pkg.webots_thymio2_controller_node:main"
+            "webots_thymio2_controller_node = webots_ros2_bridge_py_pkg.webots_thymio2_controller_node:main",
+            "webots_cozmo_controller_node = webots_ros2_bridge_py_pkg.webots_cozmo_controller_node:main"
         ],
     },
 )

@@ -375,6 +375,33 @@ webots_interfaces__py/fast:
 	$(MAKE) -f webots_interfaces__py/CMakeFiles/webots_interfaces__py.dir/build.make webots_interfaces__py/CMakeFiles/webots_interfaces__py.dir/build
 .PHONY : webots_interfaces__py/fast
 
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.o: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o
+
+.PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.o
+
+# target to build an object file
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o
+.PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o
+
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.i: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i
+
+.PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i
+.PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i
+
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.s: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s
+
+.PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s
+.PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s
+
 rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.o: rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.o
 
 .PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.o
@@ -401,6 +428,114 @@ rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__funct
 rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.s
 .PHONY : rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.s
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.o
+
+# target to build an object file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.i: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.s: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.o
+
+# target to build an object file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.i: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.s: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.o
+
+# target to build an object file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.i: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.s: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.o
+
+# target to build an object file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.i: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.s: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s
+
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s
+.PHONY : rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s
 
 rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o
 
@@ -564,6 +699,33 @@ rosidl_generator_py/webots_interfaces/_webots_interfaces_s.ep.rosidl_typesupport
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/webots_interfaces/_webots_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/webots_interfaces/_webots_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 
+rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.o: rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.o
+
+.PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.o
+
+# target to build an object file
+rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.o
+.PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.o
+
+rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.i: rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.i
+
+.PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.i
+.PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.i
+
+rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.s: rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.s
+
+.PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.s
+.PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.c.s
+
 rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.o: rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.c.o
 
 .PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.o
@@ -590,6 +752,114 @@ rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.s: rosidl
 rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.c.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.c.s
 .PHONY : rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.c.s
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.o: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.o
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.o
+
+# target to build an object file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.o
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.o
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.i: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.i
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.i
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.i
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.s: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.s
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.s
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.c.s
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.o: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.o
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.o
+
+# target to build an object file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.o
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.o
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.i: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.i
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.i
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.i
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.s: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.s
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.s
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.c.s
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.o: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.o
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.o
+
+# target to build an object file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.o
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.o
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.i: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.i
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.i
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.i
+
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.s: rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.s
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.s
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.c.s
+
+rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.o: rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.o
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.o
+
+# target to build an object file
+rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.o
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.o
+
+rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.i: rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.i
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.i
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.i
+
+rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.s: rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.s
+
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.s
+.PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.c.s
 
 rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.o: rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.c.o
 
@@ -672,6 +942,33 @@ rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.c.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__python.dir/build.make CMakeFiles/webots_interfaces__python.dir/rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.c.s
 .PHONY : rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.c.s
 
+rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.o: rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o
+
+rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.i: rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i
+
+rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.s: rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s
+
 rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.o: rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.o
@@ -698,6 +995,114 @@ rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_suppo
 rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.s
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.o: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.i: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.s: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.o: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.i: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.s: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.o: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.i: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.s: rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.o: rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.i: rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i
+
+rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.s: rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s
 
 rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.o: rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.cpp.o
 
@@ -780,6 +1185,33 @@ rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_motor_srv__type_suppor
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.cpp.s
 
+rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.o: rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.o
+
+rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.i: rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.i
+
+rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.s: rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.cpp.s
+
 rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.o: rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.o
@@ -806,6 +1238,114 @@ rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_sup
 rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.cpp.s
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.o: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.o
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.i: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.i
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.s: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.cpp.s
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.o: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.o
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.i: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.i
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.s: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.cpp.s
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.o: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.o
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.i: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.i
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.s: rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.cpp.s
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.o: rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.o
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.i: rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.i
+
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.s: rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.cpp.s
 
 rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.o: rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.cpp.o
 
@@ -888,6 +1428,33 @@ rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_motor_srv__type_supp
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.i: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.s: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.o
@@ -914,6 +1481,114 @@ rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_contro
 rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.i: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.s: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.i: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.s: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.i: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.s: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.i: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.s: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.o: rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.cpp.o
 
@@ -996,6 +1671,33 @@ rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.i: rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.s: rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.o
@@ -1022,6 +1724,114 @@ rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots
 rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.i: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.s: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.i: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.s: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.i: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.s: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.i: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.s: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_controller_srv__type_support.o: rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_controller_srv__type_support.cpp.o
 
@@ -1104,6 +1914,33 @@ rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_motor_srv__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_motor_srv__type_support.cpp.s
 
+rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.o
+
+rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.i: rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.i
+
+rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.s: rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.c.s
+
 rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.o
@@ -1130,6 +1967,114 @@ rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_c
 rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.c.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.c.s
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.o
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.i: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.i
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.s: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.c.s
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.o
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.i: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.i
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.s: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.c.s
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.o
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.i: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.i
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.s: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.c.s
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.o
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.i: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.i
+
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.s: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.c.s
 
 rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.o: rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.c.o
 
@@ -1212,6 +2157,33 @@ rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_m
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.c.s
 
+rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.i: rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.s: rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.o
@@ -1238,6 +2210,114 @@ rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2
 rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.i: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.s: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.i: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.s: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.i: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.s: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.i: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.s: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/webots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.o: rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.cpp.o
 
@@ -1349,9 +2429,24 @@ help:
 	@echo "... install/local"
 	@echo "... webots_interfaces__python"
 	@echo "... webots_interfaces__py"
+	@echo "... rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.o"
+	@echo "... rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.i"
+	@echo "... rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.s"
 	@echo "... rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.o"
 	@echo "... rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.i"
 	@echo "... rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.s"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.o"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.i"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.s"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.o"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.i"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.s"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.o"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.i"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.s"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.o"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.i"
+	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.s"
 	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.o"
 	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.i"
 	@echo "... rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.s"
@@ -1370,9 +2465,24 @@ help:
 	@echo "... rosidl_generator_py/webots_interfaces/_webots_interfaces_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/webots_interfaces/_webots_interfaces_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/webots_interfaces/_webots_interfaces_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.o"
+	@echo "... rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.i"
+	@echo "... rosidl_generator_py/webots_interfaces/msg/_webots_cozmo_controller_s.s"
 	@echo "... rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.o"
 	@echo "... rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.i"
 	@echo "... rosidl_generator_py/webots_interfaces/msg/_webots_thymio2_controller_s.s"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.o"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.i"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_led_srv_s.s"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.o"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.i"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_motor_srv_s.s"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.o"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.i"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_cozmo_speaker_srv_s.s"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.o"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.i"
+	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_simulation_srv_s.s"
 	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.o"
 	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.i"
 	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_controller_srv_s.s"
@@ -1382,9 +2492,24 @@ help:
 	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.o"
 	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.i"
 	@echo "... rosidl_generator_py/webots_interfaces/srv/_webots_thymio2_motor_srv_s.s"
+	@echo "... rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.o"
+	@echo "... rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.i"
+	@echo "... rosidl_typesupport_c/webots_interfaces/msg/webots_cozmo_controller__type_support.s"
 	@echo "... rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.o"
 	@echo "... rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.i"
 	@echo "... rosidl_typesupport_c/webots_interfaces/msg/webots_thymio2_controller__type_support.s"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.o"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.i"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_led_srv__type_support.s"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.o"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.i"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.o"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.i"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.s"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.o"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.i"
+	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_simulation_srv__type_support.s"
 	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.o"
 	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.i"
 	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.s"
@@ -1394,9 +2519,24 @@ help:
 	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.o"
 	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.i"
 	@echo "... rosidl_typesupport_c/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.o"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.i"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/msg/webots_cozmo_controller__type_support.s"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.o"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.i"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/msg/webots_thymio2_controller__type_support.s"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.o"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.i"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_led_srv__type_support.s"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.o"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.i"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.o"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.i"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_cozmo_speaker_srv__type_support.s"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.o"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.i"
+	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_simulation_srv__type_support.s"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.o"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.i"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_controller_srv__type_support.s"
@@ -1406,9 +2546,24 @@ help:
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.o"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.i"
 	@echo "... rosidl_typesupport_cpp/webots_interfaces/srv/webots_thymio2_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support_c.s"
@@ -1418,9 +2573,24 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_cozmo_controller__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/msg/detail/dds_fastrtps/webots_thymio2_controller__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_led_srv__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_cozmo_speaker_srv__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_simulation_srv__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_controller_srv__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_controller_srv__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_controller_srv__type_support.s"
@@ -1430,9 +2600,24 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_motor_srv__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_motor_srv__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/webots_interfaces/srv/detail/dds_fastrtps/webots_thymio2_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.s"
@@ -1442,9 +2627,24 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_simulation_srv__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.s"

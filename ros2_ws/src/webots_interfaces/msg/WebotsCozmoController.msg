@@ -1,0 +1,4 @@
+string debug_message
+string position_sensor
+string left_wheel_motor_pos_sensor
+string right_wheel_motor_pos_sensor

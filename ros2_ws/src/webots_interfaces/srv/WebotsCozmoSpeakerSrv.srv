@@ -1,0 +1,11 @@
+string speak_text       # (self, text, volume):
+string speak_volume
+string speak_rate
+string speak_pitch
+string set_engine        # (self, engine)
+string set_language      # (self, language)
+---
+string get_engine
+string get_language
+string is_speaking
+

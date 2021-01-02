@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 4efe0e0cae6624cb572d8a8f94a34d53
+needsRobotAncestor: 1
+baseType: Robot
+slotType: 
+parameters: testField,advertisementHost,translation,rotation,name,cameraWidth,cameraHeight,fieldOfView,hideCameraDisplay,headAngle,headAngle_lowLimit,headAngle_highLimit,liftAngle,liftAngle_lowLimit,liftAngle_highLimit,filterLogs,controller,controllerArgs,bodyColor,vizMode,enableVideo,frontWheelRadiusM,rearWheelRadiusM,rearWheelDistToFrontWheelM,numInterTreadWheels,autoConnectToBlocks,animationTestName
+tags: 
+license: 
+licenseUrl: 
+documentationUrl: 
+info: 

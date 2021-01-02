@@ -16,9 +16,14 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WebotsThymio2Controller.msg"
+  "msg/WebotsCozmoController.msg"
   "srv/WebotsThymio2ControllerSrv.srv"
   "srv/WebotsThymio2MotorSrv.srv"
   "srv/WebotsThymio2LEDSrv.srv"
+  "srv/WebotsSimulationSrv.srv"
+  "srv/WebotsCozmoSpeakerSrv.srv"
+  "srv/WebotsCozmoMotorSrv.srv"
+  "srv/WebotsCozmoLEDSrv.srv"
 )
 
 

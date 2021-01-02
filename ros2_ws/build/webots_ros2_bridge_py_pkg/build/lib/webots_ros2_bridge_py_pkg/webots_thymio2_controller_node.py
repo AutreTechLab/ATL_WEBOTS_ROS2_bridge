@@ -8,6 +8,7 @@ from webots_interfaces.msg import WebotsThymio2Controller
 from webots_interfaces.srv import WebotsThymio2ControllerSrv
 from webots_interfaces.srv import WebotsThymio2MotorSrv
 from webots_interfaces.srv import WebotsThymio2LEDSrv
+from webots_interfaces.srv import WebotsSimulationSrv
 
 import math
 
@@ -20,12 +21,15 @@ class WebotsThymio2ontrollerNode(WebotsNode): # MODIFY NAME
         self.get_logger().info("Active WEBOTS_ROBOT_NAME env is " + str(os.environ["WEBOTS_ROBOT_NAME"]) )
         self.thymio2_status_publisher_ = self.create_publisher(WebotsThymio2Controller, "ThymioControllerPublisher_" + str(
             self.get_parameter("robot_device").value), 10)
-        self.thymio2_controller_service_ = self.create_service(WebotsThymio2ControllerSrv, "ThymioControllerService_" + str(
-            self.get_parameter("robot_device").value), self.callback_thymio2_controller)
         self.thymio2_motor_service_ = self.create_service(WebotsThymio2MotorSrv, "WebotsThymio2MotorSrv_" + str(
             self.get_parameter("robot_device").value), self.callback_thymio2_motors)
         self.thymio2_led_service_ = self.create_service(WebotsThymio2LEDSrv, "WebotsThymio2LEDSrv_" + str(
             self.get_parameter("robot_device").value), self.callback_thymio2_LED)
+
+        # Service to start a webots simulation:
+        self.webots_simulation_service_ = self.create_service(WebotsSimulationSrv, "ThymioControllerService_" + str(
+            self.get_parameter("robot_device").value), self.callback_webots_simulation_service)
+
 
         self.timer_ = self.create_timer(0.5, self.publish_thymio_status)
 
@@ -131,15 +135,15 @@ class WebotsThymio2ontrollerNode(WebotsNode): # MODIFY NAME
 
         self.thymio2_status_publisher_.publish(msg)
 
-    def callback_thymio2_controller(self, request, response):
-       if request.data:
-            self.counter_ = 0
-            response.success = True
-            response.log_message = "Counter has been reset"
-       else:
-            response.success = False
-            response.log_message = "Counter has not been reset"
-       return response
+    def callback_webots_simulation_service(self, request, response):
+        response = "All good!"
+        command = 'webots --batch --mode=pause --minimize --stream = ["port=' + request.port + ';"mode=xd3"]'
+        self.get_logger().info("Starting " + str(command))
+        try:
+            os.system("(" + command + " &) && sleep 0.3")
+        except:
+            response = "Failed to start process!"
+        return response
 
     def callback_thymio2_motors(self, request, response):
         response.log_message = "OK"

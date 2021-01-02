@@ -163,6 +163,145 @@ _register_msg_type__msg__webots_thymio2_controller(PyObject * pymodule)
 // #include "rosidl_runtime_c/service_type_support_struct.h"
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
+#include "webots_interfaces/msg/detail/webots_cozmo_controller__type_support.h"
+#include "webots_interfaces/msg/detail/webots_cozmo_controller__struct.h"
+#include "webots_interfaces/msg/detail/webots_cozmo_controller__functions.h"
+
+static void * webots_interfaces__msg__webots_cozmo_controller__create_ros_message(void)
+{
+  return webots_interfaces__msg__WebotsCozmoController__create();
+}
+
+static void webots_interfaces__msg__webots_cozmo_controller__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__msg__WebotsCozmoController * ros_message = (webots_interfaces__msg__WebotsCozmoController *)raw_ros_message;
+  webots_interfaces__msg__WebotsCozmoController__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__msg__webots_cozmo_controller__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__msg__webots_cozmo_controller__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, msg, WebotsCozmoController);
+
+int8_t
+_register_msg_type__msg__webots_cozmo_controller(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__msg__webots_cozmo_controller__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__msg__webots_cozmo_controller",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__msg__webots_cozmo_controller__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__msg__webots_cozmo_controller",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__msg__webots_cozmo_controller__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__msg__webots_cozmo_controller",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__msg__webots_cozmo_controller__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__msg__webots_cozmo_controller",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, msg, WebotsCozmoController),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__msg__webots_cozmo_controller",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
 #include "webots_interfaces/srv/detail/webots_thymio2_controller_srv__type_support.h"
 #include "webots_interfaces/srv/detail/webots_thymio2_controller_srv__struct.h"
 #include "webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.h"
@@ -1081,6 +1220,1246 @@ _register_srv_type__srv__webots_thymio2_led_srv(PyObject * pymodule)
   return 0;
 }
 
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+#include "webots_interfaces/srv/detail/webots_simulation_srv__type_support.h"
+#include "webots_interfaces/srv/detail/webots_simulation_srv__struct.h"
+#include "webots_interfaces/srv/detail/webots_simulation_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_simulation_srv__request__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsSimulationSrv_Request__create();
+}
+
+static void webots_interfaces__srv__webots_simulation_srv__request__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsSimulationSrv_Request * ros_message = (webots_interfaces__srv__WebotsSimulationSrv_Request *)raw_ros_message;
+  webots_interfaces__srv__WebotsSimulationSrv_Request__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_simulation_srv__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_simulation_srv__request__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsSimulationSrv_Request);
+
+int8_t
+_register_msg_type__srv__webots_simulation_srv__request(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__request__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_simulation_srv__request",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__request__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_simulation_srv__request",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__request__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_simulation_srv__request",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__request__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_simulation_srv__request",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsSimulationSrv_Request),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_simulation_srv__request",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_simulation_srv__type_support.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_simulation_srv__struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_simulation_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_simulation_srv__response__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsSimulationSrv_Response__create();
+}
+
+static void webots_interfaces__srv__webots_simulation_srv__response__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsSimulationSrv_Response * ros_message = (webots_interfaces__srv__WebotsSimulationSrv_Response *)raw_ros_message;
+  webots_interfaces__srv__WebotsSimulationSrv_Response__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_simulation_srv__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_simulation_srv__response__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsSimulationSrv_Response);
+
+int8_t
+_register_msg_type__srv__webots_simulation_srv__response(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__response__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_simulation_srv__response",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__response__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_simulation_srv__response",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__response__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_simulation_srv__response",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_simulation_srv__response__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_simulation_srv__response",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsSimulationSrv_Response),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_simulation_srv__response",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsSimulationSrv)();
+
+int8_t
+_register_srv_type__srv__webots_simulation_srv(PyObject * pymodule)
+{
+  int8_t err;
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsSimulationSrv)(),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_srv__srv__webots_simulation_srv",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_cozmo_speaker_srv__request__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsCozmoSpeakerSrv_Request__create();
+}
+
+static void webots_interfaces__srv__webots_cozmo_speaker_srv__request__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsCozmoSpeakerSrv_Request * ros_message = (webots_interfaces__srv__WebotsCozmoSpeakerSrv_Request *)raw_ros_message;
+  webots_interfaces__srv__WebotsCozmoSpeakerSrv_Request__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_cozmo_speaker_srv__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_cozmo_speaker_srv__request__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoSpeakerSrv_Request);
+
+int8_t
+_register_msg_type__srv__webots_cozmo_speaker_srv__request(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__request__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_cozmo_speaker_srv__request",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__request__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_cozmo_speaker_srv__request",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__request__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_cozmo_speaker_srv__request",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__request__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_cozmo_speaker_srv__request",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoSpeakerSrv_Request),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_cozmo_speaker_srv__request",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_cozmo_speaker_srv__response__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsCozmoSpeakerSrv_Response__create();
+}
+
+static void webots_interfaces__srv__webots_cozmo_speaker_srv__response__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsCozmoSpeakerSrv_Response * ros_message = (webots_interfaces__srv__WebotsCozmoSpeakerSrv_Response *)raw_ros_message;
+  webots_interfaces__srv__WebotsCozmoSpeakerSrv_Response__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_cozmo_speaker_srv__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_cozmo_speaker_srv__response__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoSpeakerSrv_Response);
+
+int8_t
+_register_msg_type__srv__webots_cozmo_speaker_srv__response(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__response__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_cozmo_speaker_srv__response",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__response__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_cozmo_speaker_srv__response",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__response__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_cozmo_speaker_srv__response",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_speaker_srv__response__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_cozmo_speaker_srv__response",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoSpeakerSrv_Response),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_cozmo_speaker_srv__response",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsCozmoSpeakerSrv)();
+
+int8_t
+_register_srv_type__srv__webots_cozmo_speaker_srv(PyObject * pymodule)
+{
+  int8_t err;
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsCozmoSpeakerSrv)(),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_srv__srv__webots_cozmo_speaker_srv",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_cozmo_motor_srv__request__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsCozmoMotorSrv_Request__create();
+}
+
+static void webots_interfaces__srv__webots_cozmo_motor_srv__request__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsCozmoMotorSrv_Request * ros_message = (webots_interfaces__srv__WebotsCozmoMotorSrv_Request *)raw_ros_message;
+  webots_interfaces__srv__WebotsCozmoMotorSrv_Request__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_cozmo_motor_srv__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_cozmo_motor_srv__request__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoMotorSrv_Request);
+
+int8_t
+_register_msg_type__srv__webots_cozmo_motor_srv__request(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__request__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_cozmo_motor_srv__request",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__request__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_cozmo_motor_srv__request",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__request__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_cozmo_motor_srv__request",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__request__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_cozmo_motor_srv__request",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoMotorSrv_Request),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_cozmo_motor_srv__request",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_cozmo_motor_srv__response__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsCozmoMotorSrv_Response__create();
+}
+
+static void webots_interfaces__srv__webots_cozmo_motor_srv__response__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsCozmoMotorSrv_Response * ros_message = (webots_interfaces__srv__WebotsCozmoMotorSrv_Response *)raw_ros_message;
+  webots_interfaces__srv__WebotsCozmoMotorSrv_Response__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_cozmo_motor_srv__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_cozmo_motor_srv__response__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoMotorSrv_Response);
+
+int8_t
+_register_msg_type__srv__webots_cozmo_motor_srv__response(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__response__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_cozmo_motor_srv__response",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__response__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_cozmo_motor_srv__response",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__response__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_cozmo_motor_srv__response",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_motor_srv__response__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_cozmo_motor_srv__response",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoMotorSrv_Response),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_cozmo_motor_srv__response",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsCozmoMotorSrv)();
+
+int8_t
+_register_srv_type__srv__webots_cozmo_motor_srv(PyObject * pymodule)
+{
+  int8_t err;
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsCozmoMotorSrv)(),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_srv__srv__webots_cozmo_motor_srv",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.h"
+#include "webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_cozmo_led_srv__request__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsCozmoLEDSrv_Request__create();
+}
+
+static void webots_interfaces__srv__webots_cozmo_led_srv__request__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsCozmoLEDSrv_Request * ros_message = (webots_interfaces__srv__WebotsCozmoLEDSrv_Request *)raw_ros_message;
+  webots_interfaces__srv__WebotsCozmoLEDSrv_Request__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_cozmo_led_srv__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_cozmo_led_srv__request__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoLEDSrv_Request);
+
+int8_t
+_register_msg_type__srv__webots_cozmo_led_srv__request(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__request__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_cozmo_led_srv__request",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__request__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_cozmo_led_srv__request",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__request__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_cozmo_led_srv__request",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__request__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_cozmo_led_srv__request",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoLEDSrv_Request),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_cozmo_led_srv__request",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+// already included above
+// #include <stdbool.h>
+// already included above
+// #include <stdint.h>
+// already included above
+// #include "rosidl_runtime_c/visibility_control.h"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_runtime_c/action_type_support_struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.h"
+// already included above
+// #include "webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.h"
+
+static void * webots_interfaces__srv__webots_cozmo_led_srv__response__create_ros_message(void)
+{
+  return webots_interfaces__srv__WebotsCozmoLEDSrv_Response__create();
+}
+
+static void webots_interfaces__srv__webots_cozmo_led_srv__response__destroy_ros_message(void * raw_ros_message)
+{
+  webots_interfaces__srv__WebotsCozmoLEDSrv_Response * ros_message = (webots_interfaces__srv__WebotsCozmoLEDSrv_Response *)raw_ros_message;
+  webots_interfaces__srv__WebotsCozmoLEDSrv_Response__destroy(ros_message);
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+bool webots_interfaces__srv__webots_cozmo_led_srv__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * webots_interfaces__srv__webots_cozmo_led_srv__response__convert_to_py(void * raw_ros_message);
+
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_message_type_support_t *
+ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoLEDSrv_Response);
+
+int8_t
+_register_msg_type__srv__webots_cozmo_led_srv__response(PyObject * pymodule)
+{
+  int8_t err;
+
+  PyObject * pyobject_create_ros_message = NULL;
+  pyobject_create_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__response__create_ros_message,
+    NULL, NULL);
+  if (!pyobject_create_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "create_ros_message_msg__srv__webots_cozmo_led_srv__response",
+    pyobject_create_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_create_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_destroy_ros_message = NULL;
+  pyobject_destroy_ros_message = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__response__destroy_ros_message,
+    NULL, NULL);
+  if (!pyobject_destroy_ros_message) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "destroy_ros_message_msg__srv__webots_cozmo_led_srv__response",
+    pyobject_destroy_ros_message);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_destroy_ros_message);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_from_py = NULL;
+  pyobject_convert_from_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__response__convert_from_py,
+    NULL, NULL);
+  if (!pyobject_convert_from_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_from_py_msg__srv__webots_cozmo_led_srv__response",
+    pyobject_convert_from_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_from_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_convert_to_py = NULL;
+  pyobject_convert_to_py = PyCapsule_New(
+    (void *)&webots_interfaces__srv__webots_cozmo_led_srv__response__convert_to_py,
+    NULL, NULL);
+  if (!pyobject_convert_to_py) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "convert_to_py_msg__srv__webots_cozmo_led_srv__response",
+    pyobject_convert_to_py);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_convert_to_py);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(webots_interfaces, srv, WebotsCozmoLEDSrv_Response),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_msg__srv__webots_cozmo_led_srv__response",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
+ROSIDL_GENERATOR_C_IMPORT
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsCozmoLEDSrv)();
+
+int8_t
+_register_srv_type__srv__webots_cozmo_led_srv(PyObject * pymodule)
+{
+  int8_t err;
+  PyObject * pyobject_type_support = NULL;
+  pyobject_type_support = PyCapsule_New(
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, webots_interfaces, srv, WebotsCozmoLEDSrv)(),
+    NULL, NULL);
+  if (!pyobject_type_support) {
+    // previously added objects will be removed when the module is destroyed
+    return -1;
+  }
+  err = PyModule_AddObject(
+    pymodule,
+    "type_support_srv__srv__webots_cozmo_led_srv",
+    pyobject_type_support);
+  if (err) {
+    // the created capsule needs to be decremented
+    Py_XDECREF(pyobject_type_support);
+    // previously added objects will be removed when the module is destroyed
+    return err;
+  }
+  return 0;
+}
+
 PyMODINIT_FUNC
 PyInit_webots_interfaces_s__rosidl_typesupport_c(void)
 {
@@ -1092,6 +2471,12 @@ PyInit_webots_interfaces_s__rosidl_typesupport_c(void)
   int8_t err;
 
   err = _register_msg_type__msg__webots_thymio2_controller(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__msg__webots_cozmo_controller(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
@@ -1146,6 +2531,78 @@ PyInit_webots_interfaces_s__rosidl_typesupport_c(void)
   }
 
   err = _register_srv_type__srv__webots_thymio2_led_srv(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_simulation_srv__request(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_simulation_srv__response(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_srv_type__srv__webots_simulation_srv(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_cozmo_speaker_srv__request(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_cozmo_speaker_srv__response(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_srv_type__srv__webots_cozmo_speaker_srv(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_cozmo_motor_srv__request(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_cozmo_motor_srv__response(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_srv_type__srv__webots_cozmo_motor_srv(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_cozmo_led_srv__request(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_msg_type__srv__webots_cozmo_led_srv__response(pymodule);
+  if (err) {
+    Py_XDECREF(pymodule);
+    return NULL;
+  }
+
+  err = _register_srv_type__srv__webots_cozmo_led_srv(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

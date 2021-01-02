@@ -71,9 +71,14 @@ rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: /opt/ros/f
 rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/msg/WebotsThymio2Controller.idl
+rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/msg/WebotsCozmoController.idl
 rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsThymio2ControllerSrv.idl
 rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsThymio2MotorSrv.idl
 rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsThymio2LEDSrv.idl
+rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsSimulationSrv.idl
+rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsCozmoSpeakerSrv.idl
+rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsCozmoMotorSrv.idl
+rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h: rosidl_adapter/webots_interfaces/srv/WebotsCozmoLEDSrv.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c__arguments.json
 
@@ -85,6 +90,18 @@ rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__struc
 
 rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.h
+
+rosidl_generator_c/webots_interfaces/msg/webots_cozmo_controller.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/webots_cozmo_controller.h
+
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.h
+
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__struct.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__struct.h
+
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.h
 
 rosidl_generator_c/webots_interfaces/srv/webots_thymio2_controller_srv.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/webots_thymio2_controller_srv.h
@@ -122,8 +139,59 @@ rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__struct.h
 rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support.h
 
+rosidl_generator_c/webots_interfaces/srv/webots_simulation_srv.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/webots_simulation_srv.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__struct.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__struct.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.h
+
+rosidl_generator_c/webots_interfaces/srv/webots_cozmo_speaker_srv.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/webots_cozmo_speaker_srv.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.h
+
+rosidl_generator_c/webots_interfaces/srv/webots_cozmo_motor_srv.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/webots_cozmo_motor_srv.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.h
+
+rosidl_generator_c/webots_interfaces/srv/webots_cozmo_led_srv.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/webots_cozmo_led_srv.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.h
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.h: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.h
+
 rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c
+
+rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c
 
 rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c
@@ -133,6 +201,18 @@ rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functi
 
 rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c
+
+rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c: rosidl_generator_c/webots_interfaces/msg/webots_thymio2_controller.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c
 
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.o: rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c
@@ -147,9 +227,22 @@ CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.s
 
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c > CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.i
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.s
+
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c
 
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.i: cmake_force
@@ -162,7 +255,7 @@ CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_i
 
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c
 
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.i: cmake_force
@@ -175,7 +268,7 @@ CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_i
 
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c
 
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.i: cmake_force
@@ -186,24 +279,86 @@ CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.s
 
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c > CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.i
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.s
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c > CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.i
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.s
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c > CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.i
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.s
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o   -c /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c > CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.i
+
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c -o CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.s
+
 # Object files for target webots_interfaces__rosidl_generator_c
 webots_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.o" \
+"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o" \
 "CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o" \
 "CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o" \
-"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o"
+"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o" \
+"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o" \
+"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o" \
+"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o" \
+"CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o"
 
 # External object files for target webots_interfaces__rosidl_generator_c
 webots_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c.o
+libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c.o
 libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c.o
 libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c.o
 libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c.o
+libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c.o
+libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c.o
+libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c.o
+libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c.o
 libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/build.make
 libwebots_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libwebots_interfaces__rosidl_generator_c.so: CMakeFiles/webots_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libwebots_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libwebots_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webots_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +374,10 @@ CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__struct.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__type_support.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/webots_cozmo_controller.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__struct.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__type_support.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/webots_thymio2_controller_srv.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__struct.h
@@ -231,10 +390,31 @@ CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__struct.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__type_support.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/webots_simulation_srv.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__struct.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__type_support.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/webots_cozmo_speaker_srv.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__struct.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__type_support.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/webots_cozmo_motor_srv.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__struct.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__type_support.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/webots_cozmo_led_srv.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__struct.h
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__type_support.h
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_thymio2_controller__functions.c
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/msg/detail/webots_cozmo_controller__functions.c
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_controller_srv__functions.c
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_motor_srv__functions.c
 CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_thymio2_led_srv__functions.c
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_simulation_srv__functions.c
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_speaker_srv__functions.c
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_motor_srv__functions.c
+CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/webots_interfaces/srv/detail/webots_cozmo_led_srv__functions.c
 	cd /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/src/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces /home/autretechlab/Documents/GitHub/ATL_WEBOTS_ROS2_bridge/ros2_ws/build/webots_interfaces/CMakeFiles/webots_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/webots_interfaces__rosidl_generator_c.dir/depend
 
